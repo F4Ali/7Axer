@@ -1,13 +1,13 @@
-wait(10.5)
+wait(1.3)
 game.StarterGui:SetCore("SendNotification", {
     Title = "مطور السكربت علي";
     Text = "اتمنى يعجبك سكربت حقي 😊"; -- BY WBA_ZEYAD --
-    Duration = 5;
+   Duration = 3;
 })
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "7Axer", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "7Axer | v1.3", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 -- كود السحب للجوال والماوس
 task.wait(1)
@@ -163,28 +163,6 @@ Tab:AddButton({
 	Name = "script3 سكربت ماب بيوت عربي",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/main/Nokia%20Hub.lua'))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-local Tab = Window:MakeTab({
-	Name = "سكربت ديد ريلز",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "ديد ريلز"
-})
-
-Tab:AddButton({
-	Name = "script DEAD RAILS",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/F4Ali/Dead-Rails/refs/heads/main/Dead%24-Rails"))()
   	end    
 })
 
